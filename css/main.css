@@ -1,3 +1,21 @@
+/* space-mono-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/space-mono-v6-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/space-mono-v6-latin-ext_latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* space-mono-700 - latin-ext_latin */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/space-mono-v6-latin-ext_latin-700.woff2") format("woff2"), url("../fonts/space-mono-v6-latin-ext_latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -386,10 +404,10 @@ ul, ol {
   padding: 0;
 }
 
-.welcome {
+.text {
   color: red;
-  background-color: green;
-  border: 1px solid black;
-  border-radius: 50%;
+  background-color: #a3c4a3;
+  font-size: 24px;
+  font-family: "lexend deca";
 }
 /*# sourceMappingURL=main.css.map */
