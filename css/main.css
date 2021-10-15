@@ -385,4 +385,11 @@ ul, ol {
   margin: 0;
   padding: 0;
 }
+
+.welcome {
+  color: red;
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=main.css.map */
